@@ -1,0 +1,14 @@
+interface:
+  display_name: SLPA-SEI Story Builder
+  short_description: Build coherent SLPA-SEI stories and evidence logic
+  default_prompt: Use $build-slpa-sei-story to construct or audit the current short-
+    and long-term predictive-alignment story and SLPA-SEI algorithm logic.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
